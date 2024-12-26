@@ -2,6 +2,7 @@
   "name": "chai-aur-code",
   "version": "1.0.0",
   "description": "a backend at chai aur code channel - youtube",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +12,8 @@
     "backend"
   ],
   "author": "Dhirendra Yadav",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
